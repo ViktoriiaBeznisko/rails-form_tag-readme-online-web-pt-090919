@@ -53,7 +53,7 @@ Rails.application.configure do
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   class Application < Rails::Application
-  config.web_console.whitelisted_ips = '<IP address here>'
-end
+    config.web_console.whitelisted_ips = '<IP address here>'
+  end
   
 end
